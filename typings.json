@@ -1,0 +1,9 @@
+{
+  "name": "post-normalize",
+  "version": "0.0.2",
+  "dependencies": {
+  },
+  "ambientDependencies": {
+    "express": "registry:dt/express#4.0.0+20160317120654"
+  }
+}

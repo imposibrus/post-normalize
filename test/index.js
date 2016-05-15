@@ -10,7 +10,7 @@ var path = require('path'),
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(postNormalize);
+app.use(postNormalize());
 app.post('*', function(req, res) {
   res.send({body: req.body, files: req.files});
 });
