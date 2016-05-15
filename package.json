@@ -1,0 +1,46 @@
+{
+  "name": "post-normalize",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot"
+  },
+  "description": "Express middleware for populating `req.files` and `req.body` fields from `multipart/form-data` request.",
+  "keywords": [
+    "multipart/form-data",
+    "files",
+    "middleware"
+  ],
+  "homepage": "https://github.com/imposibrus/post-normalize",
+  "bugs": {
+    "url": "https://github.com/imposibrus/post-normalize/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vadim Petrov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imposibrus/post-normalize.git"
+  },
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "1.0.16"
+  },
+  "devDependencies": {
+    "body-parser": "1.15.1",
+    "express": "4.13.4",
+    "istanbul": "0.4.3",
+    "mocha": "2.4.5",
+    "should": "8.3.1",
+    "supertest": "1.2.0"
+  }
+}
