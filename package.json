@@ -1,6 +1,6 @@
 {
   "name": "post-normalize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot"
@@ -35,14 +35,14 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "dependencies": {
-    "formidable": "1.0.16"
+    "formidable": "1.1.1"
   },
   "devDependencies": {
-    "body-parser": "1.15.1",
-    "express": "4.13.4",
-    "istanbul": "0.4.3",
-    "mocha": "2.4.5",
-    "should": "8.3.1",
-    "supertest": "1.2.0"
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "istanbul": "0.4.5",
+    "mocha": "3.4.1",
+    "should": "11.2.1",
+    "supertest": "3.0.0"
   }
 }
