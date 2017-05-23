@@ -1,6 +1,6 @@
 {
   "name": "post-normalize",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot"

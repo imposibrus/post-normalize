@@ -1,4 +1,8 @@
 
 import * as express from 'express';
 
-export default function postNormalize(): express.RequestHandler;
+declare function postNormalize(): express.RequestHandler;
+
+declare namespace postNormalize { }
+
+export = postNormalize;
